@@ -16,4 +16,4 @@ class Carro(models.Model):
     preco = models.FloatField()
 
     def __str__(self):
-        return f'{self.marca} {self.modelo} {self.ano} {self.cor}'
+        return f'{self.marca} {self.modelo} {self.cor} {self.ano}'
